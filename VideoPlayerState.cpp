@@ -8,8 +8,7 @@ VideoPlayerState::VideoPlayerState(std::string name)
 
 }
 
-VideoPlayerState::~VideoPlayerState() {
-}
+VideoPlayerState::~VideoPlayerState() = default;
 
 void VideoPlayerState::Tocar(VideoPlayer * player)
 {

@@ -5,8 +5,7 @@ ParadoState::ParadoState()
 : VideoPlayerState(std::string("PARADO")) {
 }
 
-ParadoState::~ParadoState() {
-}
+ParadoState::~ParadoState() = default;
 
 void ParadoState::Tocar(VideoPlayer * player)
 {

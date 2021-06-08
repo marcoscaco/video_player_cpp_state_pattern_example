@@ -9,6 +9,8 @@ void helper() {
     cout << "1 - Para Pausar:\n";
     cout << "2 - Para Tocar:\n";
     cout << "3 - Para Parar:\n";
+    cout << "9 - Para Sair:\n";
+
 }
 
 int main() {
@@ -34,6 +36,8 @@ int main() {
             case 3:
                 player.Parar();
                 break;
+            case 9:
+                return 0;
             default:
                 cout << "Opção de estado ainda não implementada";
                 helper();

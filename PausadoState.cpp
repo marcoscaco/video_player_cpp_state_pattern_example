@@ -5,8 +5,7 @@ PausadoState::PausadoState()
 : VideoPlayerState(std::string("PAUSADO")) {
 }
 
-PausadoState::~PausadoState() {
-}
+PausadoState::~PausadoState() = default;
 
 void PausadoState::Tocar(VideoPlayer * player)
 {

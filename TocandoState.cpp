@@ -6,8 +6,7 @@ TocandoState::TocandoState()
 : VideoPlayerState(std::string("TOCANDO")) {
 }
 
-TocandoState::~TocandoState() {
-}
+TocandoState::~TocandoState() = default;
 
 void TocandoState::Pausar(VideoPlayer * player)
 {

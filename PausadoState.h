@@ -9,7 +9,7 @@ class VideoPlayer;
 class PausadoState : public VideoPlayerState {
 public:
 	PausadoState();
-	virtual ~PausadoState();
+	~PausadoState() override;
 
 	virtual void Tocar(VideoPlayer * player);
 	virtual void Parar(VideoPlayer * player);
